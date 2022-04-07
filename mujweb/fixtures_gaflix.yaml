@@ -1,0 +1,147 @@
+- model: gaflix.movie
+  pk: 1
+  fields:
+    title: Django Unchained
+    description: |
+      Nespoutaný Django je americký western režiséra Quentina Tarantina z roku 2012. Film se odehrává v jižních státech USA a zaměřuje se na Djanga, osvobozeného otroka, který cestuje napříč Spojenými státy v doprovodu doktora Kinga Schultze, nájemného lovce lidí.
+    csfd_rating: 88
+    director: 1
+    actors:
+    - 5
+    categories:
+    - 1
+    - 2
+    - 3
+                       
+- model: gaflix.movie
+  pk: 2
+  fields:
+    title: Zelená míle
+    description: |
+      Paul Edgecomb se vrací ve vzpomínkách do roku 1935, kdy byl zaměstnán v louisianské věznici jako hlavní dozorce. Tenkrát se tam setkal s výjimečným, byť duchem prostým mužem, který byl obdařen nejen velkým srdcem, ale také nadpozemskými schopnostmi. Byl to John Coffey, neprávem odsouzený na smrt za vraždu dvou malých holčiček. V té době trpěl Paul těžkým zánětem močového měchýře a také neměl šanci zbavit se sadistického, všemi nenáviděného dozorce Percyho. Jednoho dne chce s Paulem mluvit Coffey. Když se k němu přiblíží, chytí ho rukou v rozkroku, pak šokovaného Paula pustí a on uvidí, jak černoch vypustil z úst černý oblak, a současně si uvědomí, že jeho bolestivý zánět zmizel. Coffey má zvláštní schopnost, díky které vyléčí ženu správce věznice, ke které ho tajně v noci převezou, dokonce oživí cvičenou myš jednoho vězně, kterou zabil zlomyslný Percy. John Coffey, kterého čeká smrt, přijímá svůj úděl odevzdaně a bez hořkosti.
+    csfd_rating: 93
+    director: 2
+    actors:
+    - 2
+    categories:
+    - 3
+    - 6
+    - 5
+            
+- model: gaflix.movie
+  pk: 3
+  fields:
+    title: Kmotr
+    description: |
+      Kmotr je příběhem newyorské mafiánské rodiny Corleonů, v jejímž čele stojí vážený don Vito. Režisérovi se ve filmu povedlo přesně popsat prostředí organizovaného zločinu v Americe po druhé světové válce na příkladu hierarchicky organizované italské mafie začleněné do tehdejší společnosti. Divák sleduje boj o moc, rodinné pnutí a předávání pomyslného žezla synovi
+    csfd_rating: 88
+    director: 1
+    actors:
+    - 1
+    categories:
+    - 3
+    - 6
+
+
+- model: gaflix.actor
+  pk: 1
+  fields:
+    name: Marlon Brando
+    description: |
+      Do dneška hrál v takřka čtyřiceti filmech. Hraní ho ale, jak sám říká, někdy nebavilo. V osobním životě se mu tolik nedařilo. Problémy s dětmi (má jich prý sedm), psychické potíže a později nadměrná tloušťka se na hvězdu jeho formátu příliš nehodí. Brandovou hereckou reputací se ovšem otřást nedá, i když se o to nejspíš i sám snažil (OSTROV DR. MOREAU).
+    birth_date: 1924-06-03
+    sex: male
+- model: gaflix.actor
+  pk: 2
+  fields:
+    name: Tom Hanks
+    description: |
+      Jeho rodiče se rozvedli, když mu bylo pouhých pět let. Na střední škole se věnoval sportu a chtěl se stát kosmonautem. Nakonec ale objevil herectví. Své komediální nadání zužitkoval už na prknech školního divadla, kde také začal sbírat svá první ocenění. Jeho kroky posléze vedly přes Chabotskou univerzitu na Kalifornskou státní univerzitu v Scramentu, kde potkal svou první manželku Samanthu Lewes, s níž má syna Colina (který se také stal hercem) a dceru Elizabeth. Při natáčení filmu VOLUNTEERS se seznámil s Ritou Wilson, která se nakonec v roce 1988 stala jeho druhou ženou. Mají spolu dvě děti.
+    birth_date: 1956-09-07
+    sex: male
+- model: gaflix.actor
+  pk: 3
+  fields:
+    name: Macháček
+    sex: male
+- model: gaflix.actor
+  pk: 4
+  fields:
+    name: Angelina Jolie
+    sex: female
+
+- model: gaflix.actor
+  pk: 5
+  fields:
+    name: Leonardo DiCaprio
+    description: |
+      Držitel mnoha cen a trojnásobný držitel nominace na Oscara. Za roli ve filmu Quentina Tarantina Nespoutaný Django byl nominován na Zlatý glóbus. Před filmem Nespoutaný Django hrál v režii Clinta Eastwooda hlavní roli ve filmu J. Edgar. Za svůj výkon v tomto filmu získal cenu Zlatý glóbus a nominace na Cenu kritiků a cenu Sdružení filmových a televizních herců (SAG). Dále hrál v kasovním trháku Christophera Nolana Počátek a dramatickém thrilleru Martina Scorseseho Prokletý ostrov.
+    birth_date: 1974-11-11
+    sex: male
+
+- model: gaflix.actor
+  pk: 6
+  fields:
+    name: Kurt Russell
+    description: |
+      Jako kluk hrál ve filmu s Elvisem Presleym a smlouvu na deset let mu podepsal legendární Walt Disney. Dnes je šestapadesátiletý Russell s osmi desítkami filmových rolí v životopise známý možná stejně jako oni.   Dlouhá léta Kurt Russell se svojí životní partnerkou Goldie Hawn strávil v oblasti coloradského Aspenu, kam společně unikli před světem Hollywoodu. Los Angeles totiž nebylo zrovna přívětivé k bojovníkovi za občanská práva a prominentnímu členovi United…
+    birth_date: 1951-03-17
+    sex: male
+
+- model: gaflix.actor
+  pk: 7
+  fields:
+    name: Uma Thurman
+    description: |
+      Uma se narodila 29.4.1970 v Bostonu. V 15 letech se rozhodla že bude herečkou. Přestěhovala se do New Yorku kde se živila jako modelka. Její první role byla ve filmu KISS DADDY GOODNIGHT. Ve stejném roce se ale objevila v trháku s hvězdným obsazením NEBEZPEČNÉ ZNÁMOSTI kde si mimo jiné zahrála po boku Johna Malkoviche nebo tehdy neznámého Keanu Reevse. Následovala role v Gilliamově DOBRODRUŽSTVÍ BARONA PRÁŠILA kde se objevila nahá. Při natáčení se to neobešlo bez…
+    birth_date: 1970-04-29
+    sex: female
+
+
+
+- model: gaflix.director
+  pk: 1
+  fields:
+    name: Francis Ford Coppola
+    description: |
+      Francis Ford Coppola (1939, Detroit) je režisér, scenárista a producent, který vystudoval Hofstra University a UCLA. Patří mezi představitele tzv. Nového Hollywoodu, hnutí, které během 70. let mj. zásadně posílilo roli režiséra. Upozornil na sebe Oscarem za scénář k filmu Patton (1969) a světový věhlas vzbudil epicky rozmáchlou a zároveň dramaticky sevřenou gangsterskou ságou Kmotr (1972). 70. léta byla pro něho hvězdná, jeho filmy získaly vedle několika nominací…
+    birth_date: 1939-03-27
+
+- model: gaflix.director
+  pk: 2
+  fields:
+    name: Frank Darabont
+    description: |
+      Rodený Francúz, režisér-scenárista-producent-šéf výroby Frank Darabont, je povestný tým, že kamarátom (alebo za dobrý plat) rád vypomáha s neoficiálnymi prácami na scenároch. Prsty má v Mannovom COLLATERAL, ale záchranné práce robil aj na Branaghovom FRANKENSTEINOVI, MASKE s Jimom Carreym a Spielbergovom VOJAKOVI RYANOVI. Ako scenárista je podpísaný pod NOČNOU MOROU 3 Chucka Russella, ktorému napísal aj sci-fi horor THE BLOB (1988). Písal MUCHU 2, televízne PRÍBEHY Z HROBKY, televíznu show DOBRODRUŽSTVÁ MLADÉHO INDIANA JONESA. Ale nie vždy to ide, napokon ako scenárista zlyhal na prácach na Indiana Jones 4 a Mission: Impossible 3.
+    birth_date: 1959-08-15
+
+
+- model: gaflix.category
+  pk: 1
+  fields:
+    title: Western
+
+- model: gaflix.category
+  pk: 2
+  fields:
+    title: Dobrodružný
+
+- model: gaflix.category
+  pk: 3
+  fields:
+    title: Drama
+
+- model: gaflix.category
+  pk: 4
+  fields:
+    title: Thriller
+
+- model: gaflix.category
+  pk: 5
+  fields:
+    title: Mysteriózní
+
+- model: gaflix.category
+  pk: 6
+  fields:
+    title: Krimi

@@ -1,0 +1,22 @@
+import math
+from turtle import *
+
+x = math.sqrt(2)
+
+forward(50)
+left(90)
+forward(50)
+left(45)
+forward(25*x)
+left(90)
+forward(25*x)
+left(45)
+forward(50)
+right(225)
+forward(50*x)
+left(135)
+forward(50)
+left(135)
+forward(50*x)
+
+exitonclick()
